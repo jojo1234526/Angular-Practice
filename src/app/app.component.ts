@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  items = ['item1', 'item2', 'item3', 'item4'];
 }
