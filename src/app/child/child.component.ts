@@ -18,4 +18,6 @@ export class ChildComponent {
     console.log("Button clicked");
     this.myevent.emit(this.ChildData);
   }
+
+  //comment added here 
 }
