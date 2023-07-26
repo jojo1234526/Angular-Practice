@@ -8,7 +8,10 @@ import { Component, EventEmitter, Output, Input } from '@angular/core';
 export class ChildComponent {
   @Output() myevent: EventEmitter<string> = new EventEmitter<string>();
   @Input()
-  empdata!: string;
+  // modified this line below 
+  // before the line was empdata!: string; 
+  // so if any issues occur its likely you should  check here first 
+  empdata: string = " ";
   ChildData : string = "I am child data";
 
   fireEvent(){
